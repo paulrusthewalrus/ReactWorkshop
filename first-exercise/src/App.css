@@ -1,0 +1,38 @@
+body {
+  text-align: center;
+}
+
+.tweet {
+  text-align: left;
+  border: 1px solid black;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  width: 340px;
+}
+
+.tweetgroup {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.authorinfo {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+#author {
+  font-size: 20px;
+}
+
+#handle {
+  color: gray;
+}
